@@ -1,7 +1,7 @@
 import './styles/App.css';
 import Home from './pages/Home';
 import NoPage from './pages/No-Page';
-import {  BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {  HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import './fonts/Poppins-Black.ttf';
 
