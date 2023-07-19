@@ -1,0 +1,28 @@
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills {
+    gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 1rem;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    padding-left: 2rem;
+}
+
+@media (max-width: 500px) {
+    .skills-container h3 {
+        margin-top: 1em;
+        width: 100%;
+    }
+}

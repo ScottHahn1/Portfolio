@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: "Poppins-Bold"; 
+  src: local("Poppins-Bold"),
+    url("../fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto"; 
+  src: local("Roboto-Bold"),
+    url("../fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+h2 {
+  font-family: 'Roboto';
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+  color: lightgreen;
+}
+
+h3 {
+  font-size: 2rem;
+  background-color: rgb(58, 53, 53);
+  color: white;
+  color: lightgreen;
+}
+
+@media (max-width: 500px) {
+  h3 {
+    font-size: 1.2rem;
+  }  
+} 
