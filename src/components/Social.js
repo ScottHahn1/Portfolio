@@ -8,13 +8,13 @@ const Social = () => {
 
     return (
         <div className='social-links'>
-            <a href='https://linkedin.com/in/scott-hahn' target='_blank'>
+            <a href='https://linkedin.com/in/scott-hahn' target='_blank' rel="noreferrer">
                 <div className='social' >
                     <LinkedInIcon />
                 </div>
             </a>
             
-            <a href='https://github.com/ScottHahn1' target='_blank'>
+            <a href='https://github.com/ScottHahn1' target='_blank' rel="noreferrer">
                 <div className='social' >
                     <GithubIcon />
                 </div>

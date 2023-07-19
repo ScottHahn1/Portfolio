@@ -6,7 +6,7 @@ import WeatherImg from "../assets/Weather-App-Screenshot.png";
 
 const Projects = () => {
   return (
-    <section className='projects' id='projects'>
+    <section className='projects'>
       <h2>Projects</h2>
 
       <div className='project'>
@@ -26,10 +26,10 @@ const Projects = () => {
         </p>
 
         <div className="project-btns">
-          <a href="https://scotthahn1.github.io/Spotify-Clone/" target="_blank">
+          <a href="https://scotthahn1.github.io/Spotify-Clone/" target="_blank" rel="noreferrer">
             <button>Live Demo</button>
           </a>
-          <a href="https://github.com/ScottHahn1/Spotify-Clone" target="_blank">
+          <a href="https://github.com/ScottHahn1/Spotify-Clone" target="_blank" rel="noreferrer">
             <button>See Code</button>
           </a>
         </div>
@@ -55,10 +55,10 @@ const Projects = () => {
         </p>
 
         <div className="project-btns">
-          <a href="https://scotthahn1.github.io/Premier-League/" target="_blank">
+          <a href="https://scotthahn1.github.io/Premier-League/" target="_blank" rel="noreferrer">
             <button>Live Demo</button>
           </a>
-          <a href="https://github.com/ScottHahn1/Premier-League" target="_blank">
+          <a href="https://github.com/ScottHahn1/Premier-League" target="_blank" rel="noreferrer">
             <button>See Code</button>
           </a>
         </div>
@@ -84,10 +84,10 @@ const Projects = () => {
         </p>
 
         <div className="project-btns">
-          <a href="https://scotthahn1.github.io/Movie-App/" target="_blank">
+          <a href="https://scotthahn1.github.io/Movie-App/" target="_blank" rel="noreferrer">
             <button>Live Demo</button>
           </a>
-          <a href="https://github.com/ScottHahn1/Movie-App" target="_blank">
+          <a href="https://github.com/ScottHahn1/Movie-App" target="_blank" rel="noreferrer">
             <button>See Code</button>
           </a>
         </div>
@@ -111,10 +111,10 @@ const Projects = () => {
         </p>
 
         <div className="project-btns">
-          <a href="https://scotthahn1.github.io/Weather-App/" target="_blank">
+          <a href="https://scotthahn1.github.io/Weather-App/" target="_blank" rel="noreferrer">
             <button>Live Demo</button>
           </a>
-          <a href="https://github.com/ScottHahn1/Weather-App" target="_blank">
+          <a href="https://github.com/ScottHahn1/Weather-App" target="_blank" rel="noreferrer">
             <button>See Code</button>
           </a>
         </div>

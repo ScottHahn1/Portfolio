@@ -1,6 +1,7 @@
 import '../styles/Navbar.css';
 import CV from '../assets/ScottHahn-CurriculumVitae.pdf';
 import { useState } from 'react';
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
   const [navIsClicked, setNavIsClicked] = useState(false);
@@ -17,18 +18,18 @@ const Navbar = () => {
         </div>
 
         <div className='nav-links'>
-          <a href='#home'>
+          <Link to='home' spy={true} smooth={true} offset={50} duration={500}>
             <h4>Home</h4>
-          </a>
-          <a href='#projects'>
+          </Link>
+          <Link to='projects' spy={true} smooth={true} offset={50} duration={500}>
             <h4>Projects</h4>
-          </a>
-          <a href='#about'>
+          </Link>
+          <Link to='about' spy={true} smooth={true} offset={50} duration={500}>
             <h4>About</h4>
-          </a>
-          <a href='#contact'>
+          </Link>
+          <Link to='contact' spy={true} smooth={true} offset={50} duration={500}>
             <h4>Contact</h4>
-          </a>
+          </Link>
         </div>
 
         <div className='hamburger-menu' onClick={openNav}>
@@ -39,10 +40,18 @@ const Navbar = () => {
       </nav>
       
       <ul className={ navIsClicked ? 'mobile-nav-list open' : 'mobile-nav-list' }>
-        <li className='mobile-nav-item'>Home</li>
-        <li className='mobile-nav-item'>Projects</li>
-        <li className='mobile-nav-item'>About</li>
-        <li className='mobile-nav-item'>Contact</li>
+        <Link to='home' spy={true} smooth={true} offset={50} duration={500}>
+          <li className='mobile-nav-item'>Home</li>
+        </Link>
+        <Link to='projects' spy={true} smooth={true} offset={50} duration={500}>
+          <li className='mobile-nav-item'>Projects</li>
+        </Link>
+        <Link to='about' spy={true} smooth={true} offset={50} duration={500}>
+          <li className='mobile-nav-item'>About</li>
+        </Link>
+        <Link to='contact' spy={true} smooth={true} offset={50} duration={500}>
+          <li className='mobile-nav-item'>Contact</li>
+        </Link>
       </ul>
     </>
   )

@@ -54,6 +54,10 @@
     display: none;
 }
 
+.mobile-nav-list.open {
+    display: none;
+}
+
 @media screen and (max-width: 500px) {
     .nav-links {
         display: none;
@@ -79,6 +83,7 @@
 
     .mobile-nav-list.open {
         width: 50%;
+        display: block;
     }
 
     .mobile-nav-list li {
