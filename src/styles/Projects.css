@@ -30,7 +30,7 @@
     align-self: center;
 }
 
-.project img {
+.project img, .project video {
     grid-column: 2 / span 2;
     max-width: 100%;
     grid-row: 1 / span 4;

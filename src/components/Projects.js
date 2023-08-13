@@ -1,41 +1,14 @@
 import "../styles/Projects.css";
-import SpotifyImg from "../assets/Spotify-App-Screenshot.png";
+// import SpotifyImg from "../assets/Spotify-App-Screenshot.png";
 import PremImg from "../assets/Prem-League-Screenshot.png";
 import MovieImg from "../assets/Movie-App-Screenshot.png";
 import WeatherImg from "../assets/Weather-App-Screenshot.png";
+import SpotifyVideo from "../assets/Spotify-Clone-Video-Demo.mp4"
 
 const Projects = () => {
   return (
     <section className='projects'>
       <h2>Projects</h2>
-
-      <div className='project'>
-        <h3>Spotify Clone</h3>
-
-        <div className="project-technologies">
-          <p>HTML</p>
-          <p>CSS</p>
-          <p>React</p>
-          <p>Spotify API</p>
-        </div>
-
-        <p>
-          A clone of Spotify thats able to play music as well as add or delete
-          songs to and from your library. <strong>Note: </strong> A spotify premium membership is
-          required to play songs, otherwise browsing is fine.
-        </p>
-
-        <div className="project-btns">
-          <a href="https://scotthahn1.github.io/Spotify-Clone/" target="_blank" rel="noreferrer">
-            <button>Live Demo</button>
-          </a>
-          <a href="https://github.com/ScottHahn1/Spotify-Clone" target="_blank" rel="noreferrer">
-            <button>See Code</button>
-          </a>
-        </div>
-    
-        <img src={SpotifyImg} alt='Spotify Clone App' />
-      </div>
 
       <div className='project'>
         <h3>Premier League</h3>
@@ -64,6 +37,38 @@ const Projects = () => {
         </div>
 
         <img src={PremImg} alt='Premier League App' />
+      </div>
+
+      <div className='project'>
+        <h3>Spotify Clone</h3>
+
+        <div className="project-technologies">
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>React</p>
+          <p>Spotify API</p>
+        </div>
+
+        <p>
+          A clone of Spotify thats able to play music as well as add or delete
+          songs to and from your library. <strong>Note: </strong> A spotify premium membership is
+          required to play songs, otherwise browsing is fine.
+        </p>
+
+        <div className="project-btns">
+          <a href="https://scotthahn1.github.io/Spotify-Clone/" target="_blank" rel="noreferrer">
+            <button>Live Demo</button>
+          </a>
+          <a href="https://github.com/ScottHahn1/Spotify-Clone" target="_blank" rel="noreferrer">
+            <button>See Code</button>
+          </a>
+        </div>
+    
+        {/* <img src={SpotifyImg} alt='Spotify Clone App' /> */}
+        <video controls>
+          <source src={SpotifyVideo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video> 
       </div>
 
       <div className='project'>
