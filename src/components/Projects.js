@@ -3,7 +3,8 @@ import "../styles/Projects.css";
 import PremImg from "../assets/Prem-League-Screenshot.png";
 import MovieImg from "../assets/Movie-App-Screenshot.png";
 import WeatherImg from "../assets/Weather-App-Screenshot.png";
-import SpotifyVideo from "../assets/Spotify-Clone-Video-Demo.mp4"
+import SpotifyVideo from "../assets/Spotify-Clone-Video-Demo.mp4";
+import MarvelImg from "../assets/Marvel-W-Screenshot.png";
 
 const Projects = () => {
   return (
@@ -69,6 +70,36 @@ const Projects = () => {
           <source src={SpotifyVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video> 
+      </div>
+
+      <div className='project'>
+        <h3>Marvel World</h3>
+
+        <div className="project-technologies">
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>React</p>
+          <p>TypeScript</p>
+          <p>Node.js</p>
+          <p>Express</p>
+          <p>Marvel Comics API</p>
+          <p>The Movie Database (TMDB) API</p>
+        </div>
+
+        <p>
+          A website that provides information about Marvel news, comics, characters, movies, and TV series. Node.js/Express are used for API calls and routing.
+        </p>
+
+        <div className="project-btns">
+          <a href="https://marvel-world-heroes.netlify.app" target="_blank" rel="noreferrer">
+            <button>Live Demo</button>
+          </a>
+          <a href="https://github.com/ScottHahn1/Marvel" target="_blank" rel="noreferrer">
+            <button>See Code</button>
+          </a>
+        </div>
+
+        <img src={MarvelImg} alt='Marvel World Website' />
       </div>
 
       <div className='project'>
