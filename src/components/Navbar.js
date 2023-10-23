@@ -1,5 +1,5 @@
 import '../styles/Navbar.css';
-import CV from '../assets/ScottHahn-CurriculumVitae.pdf';
+import CV from '../assets/Scott Hahn-Curriculum Vitae.pdf';
 import { useState } from 'react';
 import { Link } from 'react-scroll';
 
