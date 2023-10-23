@@ -2,7 +2,7 @@ import "../styles/Projects.css";
 // import SpotifyImg from "../assets/Spotify-App-Screenshot.png";
 import PremImg from "../assets/Prem-League-Screenshot.png";
 import MovieImg from "../assets/Movie-App-Screenshot.png";
-import WeatherImg from "../assets/Weather-App-Screenshot.png";
+import WeatherImg from "../assets/Weather-Guide-Screenshot.png";
 import SpotifyVideo from "../assets/Spotify-Clone-Video-Demo.mp4";
 import MarvelImg from "../assets/Marvel-W-Screenshot.png";
 
@@ -65,11 +65,40 @@ const Projects = () => {
           </a>
         </div>
     
-        {/* <img src={SpotifyImg} alt='Spotify Clone App' /> */}
         <video controls>
           <source src={SpotifyVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video> 
+      </div>
+
+      <div className='project'>
+        <h3>Weather Guide</h3>
+
+        <div className="project-technologies">
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>TypeScript</p>
+          <p>React</p>
+          <p>Node.js</p>
+          <p>Express</p>
+          <p>OpenWeatherMap API</p>
+        </div>
+
+        <p>
+          An app which gives weather information for a specific location of your
+          choosing. Includes current, today's, daily, weekly, and hourly weather data. Node.js/Express are used for API calls and routing.
+        </p>
+
+        <div className="project-btns">
+          <a href="https://weather-guide-v2.netlify.app" target="_blank" rel="noreferrer">
+            <button>Live Demo</button>
+          </a>
+          <a href="https://github.com/ScottHahn1/Weather-Guide" target="_blank" rel="noreferrer">
+            <button>See Code</button>
+          </a>
+        </div>
+        
+        <img src={WeatherImg} alt='Weather Guide App' />
       </div>
 
       <div className='project'>
@@ -129,33 +158,6 @@ const Projects = () => {
         </div>
 
         <img src={MovieImg} alt='Movie DataBase App' />
-      </div>
-
-      <div className='project'>
-        <h3>Weather Guide</h3>
-
-        <div className="project-technologies">
-          <p>HTML</p>
-          <p>CSS</p>
-          <p>JavaScript</p>
-          <p>OpenWeatherMap API</p>
-        </div>
-
-        <p>
-          An app which gives weather information for a specific location of your
-          choosing. Includes current and hourly weather details.
-        </p>
-
-        <div className="project-btns">
-          <a href="https://scotthahn1.github.io/Weather-App/" target="_blank" rel="noreferrer">
-            <button>Live Demo</button>
-          </a>
-          <a href="https://github.com/ScottHahn1/Weather-App" target="_blank" rel="noreferrer">
-            <button>See Code</button>
-          </a>
-        </div>
-        
-        <img src={WeatherImg} alt='Weather Guide App' />
       </div>
     </section>
   );
