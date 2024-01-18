@@ -1,15 +1,47 @@
 import "../styles/Projects.css";
 // import SpotifyImg from "../assets/Spotify-App-Screenshot.png";
 import PremImg from "../assets/Prem-League-Screenshot.png";
-import MovieImg from "../assets/Movie-App-Screenshot.png";
+import MovieImg from "../assets/Movie-Website-Screenshot.png";
 import WeatherImg from "../assets/Weather-Guide-Screenshot.png";
 import SpotifyVideo from "../assets/Spotify-Clone-Video-Demo.mp4";
 import MarvelImg from "../assets/Marvel-W-Screenshot.png";
+
 
 const Projects = () => {
   return (
     <section className='projects'>
       <h2>Projects</h2>
+
+      <div className='project'>
+        <h3>Movie Database</h3>
+
+        <div className="project-technologies">
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>TypeScript</p>
+          <p>React</p>
+          <p>Node.js</p>
+          <p>Express</p>
+          <p>MySQL</p>
+        </div>
+
+        <p>
+          This is a full stack website which contains information about
+          thousands of movies, series and famous people involved in the film
+          industry. MySQL is used for storing users' names/passwords(JWT, Bcrypt) and data which they choose to save.
+        </p>
+      
+        <div className="project-btns">
+          <a href="https://movie-db-frontend-psi.vercel.app" target="_blank" rel="noreferrer">
+            <button>Live Demo</button>
+          </a>
+          <a href="https://github.com/ScottHahn1/Movie-DB" target="_blank" rel="noreferrer">
+            <button>See Code</button>
+          </a>
+        </div>
+
+        <img src={MovieImg} alt='Movie Database' />
+      </div>
 
       <div className='project'>
         <h3>Premier League</h3>
@@ -129,35 +161,6 @@ const Projects = () => {
         </div>
 
         <img src={MarvelImg} alt='Marvel World Website' />
-      </div>
-
-      <div className='project'>
-        <h3>Movie DataBase</h3>
-
-        <div className="project-technologies">
-          <p>HTML</p>
-          <p>CSS</p>
-          <p>JavaScript</p>
-          <p>Webpack</p>
-          <p>The Movie Database (TMDB) API</p>
-        </div>
-
-        <p>
-          This is an app coded with Javascript which contains information about
-          thousands of movies, series and famous people involved in the film
-          industry.
-        </p>
-
-        <div className="project-btns">
-          <a href="https://scotthahn1.github.io/Movie-App/" target="_blank" rel="noreferrer">
-            <button>Live Demo</button>
-          </a>
-          <a href="https://github.com/ScottHahn1/Movie-App" target="_blank" rel="noreferrer">
-            <button>See Code</button>
-          </a>
-        </div>
-
-        <img src={MovieImg} alt='Movie DataBase App' />
       </div>
     </section>
   );
