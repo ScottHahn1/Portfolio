@@ -4,6 +4,11 @@
     align-items: center;
 }
 
+.skills-container h3 {
+    width: 90%;
+    align-self: flex-end;
+}
+
 .skills {
     gap: 1em;
     display: grid;
