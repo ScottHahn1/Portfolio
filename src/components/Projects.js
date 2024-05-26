@@ -1,16 +1,48 @@
 import "../styles/Projects.css";
-// import SpotifyImg from "../assets/Spotify-App-Screenshot.png";
 import PremImg from "../assets/Prem-League-Screenshot.png";
 import MovieImg from "../assets/Movie-Website-Screenshot.png";
 import WeatherImg from "../assets/Weather-Guide-Screenshot.png";
 import SpotifyVideo from "../assets/Spotify-Clone-Video-Demo.mp4";
 import MarvelImg from "../assets/Marvel-W-Screenshot.png";
-
+import OnlineStoreImg from "../assets/Online-Store-Screenshot.png";
 
 const Projects = () => {
   return (
     <section className='projects'>
       <h2>Projects</h2>
+
+      <div className='project'>
+        <h3>Aggro Gaming</h3>
+
+        <div className="project-technologies">
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>TypeScript</p>
+          <p>React</p>
+          <p>Node.js</p>
+          <p>Express</p>
+          <p>MySQL</p>
+        </div>
+
+        <p>
+          An online (fake) store that specializes in gaming products. 
+          Users can register and login to add or delete items from their cart.
+          Data retrieved is from a self-made MYSQL api.
+          MySQL is used for storing users' names/passwords(JWT, Bcrypt) and products which they choose to add to their cart.
+        </p>
+      
+        <div className="project-btns">
+          <a href="https://online-store-frontend-mocha.vercel.app" target="_blank" rel="noreferrer">
+            <button>Live Demo</button>
+          </a>
+          <a href="https://github.com/ScottHahn1/Online-Store" target="_blank" rel="noreferrer">
+            <button>See Code</button>
+          </a>
+        </div>
+
+        <img src={OnlineStoreImg} alt='Aggro Gaming' />
+      </div>
+
 
       <div className='project'>
         <h3>Movie Database</h3>
