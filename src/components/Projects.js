@@ -28,7 +28,8 @@ const Projects = () => {
           An online (fake) store that specializes in gaming products. 
           Users can register and login to add or delete items from their cart.
           Data retrieved is from a self-made MYSQL api.
-          MySQL is used for storing users' names/passwords(JWT, Bcrypt) and products which they choose to add to their cart.
+          MySQL is used for storing users' names/passwords and products which they choose to add to their cart.
+          Passwords are hashed with Bcrypt.
         </p>
       
         <div className="project-btns">
@@ -60,7 +61,8 @@ const Projects = () => {
         <p>
           This is a full stack website which contains information about
           thousands of movies, series and famous people involved in the film
-          industry. MySQL is used for storing users' names/passwords(JWT, Bcrypt) and data which they choose to save.
+          industry. MySQL is used for storing users' names/passwords and data which they choose to save.
+          Passwords are hashed with Bcrypt.
         </p>
       
         <div className="project-btns">
