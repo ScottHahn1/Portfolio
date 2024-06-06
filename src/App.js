@@ -3,7 +3,6 @@ import Home from './pages/Home';
 import NoPage from './pages/No-Page';
 import {  HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import './fonts/Poppins-Black.ttf';
 
 function App() {
   return (
