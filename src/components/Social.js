@@ -22,7 +22,7 @@ const Social = () => {
 
             <a href='mailto:scotthahn2210@gmail.com'>
                 <div className='social'>
-                    <FontAwesomeIcon icon={faEnvelope} style={{width: '2rem'}} />
+                    <FontAwesomeIcon icon={faEnvelope} size='2x' style={{ padding: '.2rem', color: 'black' }} />
                 </div>
             </a>
         </div>
