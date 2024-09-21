@@ -136,36 +136,36 @@ const Projects = () => {
         <img src={WeatherImg} alt='Weather Guide App' />
       </div>
 
-      // <div className='project'>
-      //   <h3>Spotify Clone</h3>
+      <div className='project'>
+        <h3>Spotify Clone</h3>
 
-      //   <div className="project-technologies">
-      //     <p>HTML</p>
-      //     <p>CSS</p>
-      //     <p>React</p>
-      //     <p>Spotify API</p>
-      //   </div>
+        <div className="project-technologies">
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>React</p>
+          <p>Spotify API</p>
+        </div>
 
-      //   <p>
-      //     A clone of Spotify thats able to play music as well as add or delete
-      //     songs to and from your library. <strong>Note: </strong> A spotify premium membership is
-      //     required to play songs, otherwise browsing is fine.
-      //   </p>
+        <p>
+          A clone of Spotify thats able to play music as well as add or delete
+          songs to and from your library. <strong>Note: </strong> A spotify premium membership is
+          required to play songs, otherwise browsing is fine.
+        </p>
 
-      //   <div className="project-btns">
-      //     <a href="https://scotthahn1.github.io/Spotify-Clone/" target="_blank" rel="noreferrer">
-      //       <button>Live Demo</button>
-      //     </a>
-      //     <a href="https://github.com/ScottHahn1/Spotify-Clone" target="_blank" rel="noreferrer">
-      //       <button>See Code</button>
-      //     </a>
-      //   </div>
+        <div className="project-btns">
+          <a href="https://scotthahn1.github.io/Spotify-Clone/" target="_blank" rel="noreferrer">
+          <button>Live Demo</button>
+          </a>
+          <a href="https://github.com/ScottHahn1/Spotify-Clone" target="_blank" rel="noreferrer">
+          <button>See Code</button>
+          </a>
+        </div>
     
-      //   <video controls>
-      //     <source src={SpotifyVideo} type="video/mp4" />
-      //     Your browser does not support the video tag.
-      //   </video> 
-      // </div>
+        <video controls>
+          <source src={SpotifyVideo} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video> 
+      </div>
 
       <div className='project'>
         <h3>Marvel World</h3>
