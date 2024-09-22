@@ -136,7 +136,7 @@ const Projects = () => {
         <img src={WeatherImg} alt='Weather Guide App' />
       </div>
 
-      <div className='project'>
+      {/* <div className='project'>
         <h3>Spotify Clone</h3>
 
         <div className="project-technologies">
@@ -165,7 +165,7 @@ const Projects = () => {
           <source src={SpotifyVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video> 
-      </div>
+      </div> */}
 
       <div className='project'>
         <h3>Marvel World</h3>
