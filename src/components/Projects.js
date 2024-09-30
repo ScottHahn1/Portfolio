@@ -84,6 +84,8 @@ const Projects = () => {
           <p>HTML</p>
           <p>CSS</p>
           <p>React</p>
+          <p>Node.js</p>
+          <p>Express</p>
           <p>TheSportsDb API</p>
           <p>Gnews API</p>
         </div>
