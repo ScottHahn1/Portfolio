@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
       <nav className='navbar'>
         <div className='cv'>
-          <a href={CV} download>Download CV</a>
+          <a href={CV} download>Download My CV</a>
         </div>
 
         <div className='nav-links'>
