@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e44f6fa8.css",
-    "main.js": "/Portfolio/static/js/main.87b0d44a.js",
-    "static/media/Spotify-Clone-Video-Demo.mp4": "/Portfolio/static/media/Spotify-Clone-Video-Demo.5c1b1aa1f16400677787.mp4",
+    "main.css": "/Portfolio/static/css/main.c233308d.css",
+    "main.js": "/Portfolio/static/js/main.c5f83b5f.js",
     "static/media/Prem-League-Screenshot.png": "/Portfolio/static/media/Prem-League-Screenshot.3b0b79bba5a9937efd57.png",
     "static/media/Marvel-W-Screenshot.png": "/Portfolio/static/media/Marvel-W-Screenshot.e9852d83cf323d4da4ee.png",
     "static/media/Movie-Website-Screenshot.png": "/Portfolio/static/media/Movie-Website-Screenshot.27e2051fce247c1117d0.png",
@@ -12,11 +11,11 @@
     "static/media/Scott Hahn Curriculum Vitae.pdf": "/Portfolio/static/media/Scott Hahn Curriculum Vitae.ced24fde8b65f2845c90.pdf",
     "static/media/Weather-Guide-Screenshot.png": "/Portfolio/static/media/Weather-Guide-Screenshot.0ec74ed14e1da03d52d3.png",
     "index.html": "/Portfolio/index.html",
-    "main.e44f6fa8.css.map": "/Portfolio/static/css/main.e44f6fa8.css.map",
-    "main.87b0d44a.js.map": "/Portfolio/static/js/main.87b0d44a.js.map"
+    "main.c233308d.css.map": "/Portfolio/static/css/main.c233308d.css.map",
+    "main.c5f83b5f.js.map": "/Portfolio/static/js/main.c5f83b5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e44f6fa8.css",
-    "static/js/main.87b0d44a.js"
+    "static/css/main.c233308d.css",
+    "static/js/main.c5f83b5f.js"
   ]
 }
