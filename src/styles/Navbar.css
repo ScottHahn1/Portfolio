@@ -1,15 +1,17 @@
 .navbar {
-    background-color: black;
+    /* background-color: black; */
+    background: linear-gradient(rgb(74, 109, 76), black);
     font-size: 1.3rem;
     font-family: Roboto;
     position: fixed;
     top: 0;
-    height: 2rem;
+    height: 3rem;
     width: 100%;
     z-index: 1;
     color: white;
     display: flex;
     justify-content: space-between;
+    letter-spacing: 2px;
 }
 
 .nav-links, .cv {
