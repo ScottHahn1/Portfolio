@@ -1,29 +1,31 @@
 .social-links {
     position: fixed; 
     top: 0;
-    border: solid 2px black;
-    font-family: sans-serif;
     margin-top: 15rem;
     left: 0;
     background-color: rgb(175, 216, 209);
+    background-color: var(--black);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 4rem;
 }
 
-.social-links:hover {
-    transition: 1s;
-    left: 0;
-}
-
-.social {
+.social-link {
+    position: absolute;
+    left: -5rem;
+    transition: .5s;
     display: flex;
-    justify-content: center;
-    cursor: pointer;
-    margin-top: 2px;
-    margin-bottom: 2px;
+    background-color: var(--black);
+    color: lightgreen;
+    width: 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-family: Roboto;
+    padding: 0 5px;
 }
 
-.social:hover {
-    background-color: lightgreen;
+.social-link:hover {
+    left: 0;
 }
