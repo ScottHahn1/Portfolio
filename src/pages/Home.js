@@ -23,7 +23,8 @@ const Home = () => {
           transition={{ duration: 1 }}
         >
           <div className='intro'>
-            <h1>Hi I'm Scott. <br /> I'm a Front-End Web Developer. </h1>
+            <h1>Scott Hahn</h1>
+            <h2>Full-Stack Web Developer</h2>
           </div>
           <Social />
         </motion.div>
