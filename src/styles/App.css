@@ -1,3 +1,7 @@
+:root {
+  --black: rgb(19, 17, 17);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -20,12 +24,16 @@ html, body {
     url("../fonts/Roboto-Bold.ttf") format("truetype");
 }
 
+h1, h2 {
+  color: lightgreen !important;
+}
+
 h2 {
   font-family: 'Roboto';
   font-size: 3rem;
   margin-bottom: 2rem;
-  text-decoration: underline;
-  color: lightgreen;
+  color: white;
+  text-shadow: 2px 2px 8px rgb(12, 11, 11);
 }
 
 h3 {
