@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.42dd596c.css",
-    "main.js": "/Portfolio/static/js/main.bd789c05.js",
+    "main.js": "/Portfolio/static/js/main.eb8777fe.js",
     "static/media/Prem-League-Screenshot.png": "/Portfolio/static/media/Prem-League-Screenshot.3b0b79bba5a9937efd57.png",
     "static/media/Marvel-W-Screenshot.png": "/Portfolio/static/media/Marvel-W-Screenshot.e9852d83cf323d4da4ee.png",
     "static/media/Movie-Website-Screenshot.png": "/Portfolio/static/media/Movie-Website-Screenshot.27e2051fce247c1117d0.png",
@@ -12,10 +12,10 @@
     "static/media/Weather-Guide-Screenshot.png": "/Portfolio/static/media/Weather-Guide-Screenshot.0ec74ed14e1da03d52d3.png",
     "index.html": "/Portfolio/index.html",
     "main.42dd596c.css.map": "/Portfolio/static/css/main.42dd596c.css.map",
-    "main.bd789c05.js.map": "/Portfolio/static/js/main.bd789c05.js.map"
+    "main.eb8777fe.js.map": "/Portfolio/static/js/main.eb8777fe.js.map"
   },
   "entrypoints": [
     "static/css/main.42dd596c.css",
-    "static/js/main.bd789c05.js"
+    "static/js/main.eb8777fe.js"
   ]
 }
