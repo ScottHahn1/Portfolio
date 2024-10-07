@@ -51,7 +51,7 @@
     background-color: white;
     width: 100%;
     margin: .2rem;
-    height: 30%;
+    height: 3px;
 }
 
 .mobile-nav-list {
@@ -71,6 +71,7 @@
     .hamburger-menu {
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
     .mobile-nav-list {
