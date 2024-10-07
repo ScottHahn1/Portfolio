@@ -24,6 +24,10 @@ html, body {
     url("../fonts/Roboto-Bold.ttf") format("truetype");
 }
 
+h1 {
+  font-size: 4rem;
+}
+
 h1, h2 {
   color: lightgreen !important;
 }
@@ -43,7 +47,15 @@ h3 {
   color: lightgreen;
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
   h3 {
     font-size: 1.2rem;
   }  
