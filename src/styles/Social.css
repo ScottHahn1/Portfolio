@@ -29,3 +29,25 @@
 .social-link:hover {
     left: 0;
 }
+
+@media only screen and (max-width: 500px) {
+    .social-links {
+        position: absolute;
+        gap: 3rem;
+    }
+
+    .social-link {
+        width: auto;
+        left: 0;
+        font-size: 1rem;
+        padding: 0;
+    }
+
+    .social-link p {
+        display: none;
+    }
+
+    .social-icon {
+        width: 2.5rem !important;
+    }
+}
