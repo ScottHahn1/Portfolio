@@ -22,12 +22,16 @@
     color: white;
 }
 
-h1 {
-    font-size: 4rem;
-}
-
 @media (max-width: 500px) {
     .main-content {
         font-size: .7rem;
+    }
+
+    .intro {
+        max-width: 80%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
     }
 } 
