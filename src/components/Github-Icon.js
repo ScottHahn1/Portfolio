@@ -1,6 +1,7 @@
 const GithubIcon = () => {
   return (
     <svg
+      className="social-icon"
       xmlns="https://www.w3.org/2000/svg"
       viewBox="0 0 30 30"
       width="3.5rem"

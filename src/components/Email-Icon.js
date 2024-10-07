@@ -1,6 +1,7 @@
 const EmailIcon = () => {
     return (
         <svg 
+            className="social-icon"
             xmlns="https://www.w3.org/2000/svg" 
             width="3.5rem" 
             viewBox="0 0 25 25" 
