@@ -24,7 +24,6 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
     font-size: 1.5rem;
-    font-family: Poppins-Bold;
 }
 
 .form > * {
@@ -46,7 +45,6 @@
 .submit {
     margin-top: 2rem;
     font-size: 1.2rem;
-    font-family: Poppins-Bold;
     width: 20% !important;
     background-color: lightgray;
     cursor: pointer;

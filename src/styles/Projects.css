@@ -16,7 +16,6 @@
     grid-template-columns: 40% 60%;
     max-width: 75%;
     margin-bottom: 7rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-bottom: 2px solid rgba(141, 134, 134, .3);
     padding-bottom: 1rem;
     color: white;
@@ -58,7 +57,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Roboto;
+    /* font-family: Roboto; */
     background-color: rgb(58, 53, 53);
     padding: .1rem;
 }
@@ -75,7 +74,6 @@
     font-size: 1.2rem;
     background-color: lightgreen;
     border: solid 1px black;
-    font-family: Roboto;
     padding: .2rem;
 }
 

@@ -3,8 +3,6 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    font-family: Roboto;
-    font-family: sans-serif;
     width: 100%;
     background: linear-gradient(rgb(74, 109, 76), black);
 }

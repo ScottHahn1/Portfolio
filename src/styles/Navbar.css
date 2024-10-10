@@ -1,7 +1,6 @@
 .navbar {
     background-color: var(--black);
     font-size: 1.3rem;
-    font-family: Roboto;
     position: fixed;
     top: 0;
     height: 3rem;
@@ -23,9 +22,7 @@
 .cv a {
     padding-left: 2rem;
     cursor: pointer;
-    /* background-color: darkorchid; */
     display: flex;
-    align-items: baseline;
     gap: 1rem;
 }
 
