@@ -12,18 +12,6 @@ html, body {
   overflow-x: hidden;
 }
 
-@font-face {
-  font-family: "Poppins-Bold"; 
-  src: local("Poppins-Bold"),
-    url("../fonts/Poppins-Bold.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Roboto"; 
-  src: local("Roboto-Bold"),
-    url("../fonts/Roboto-Bold.ttf") format("truetype");
-}
-
 h1 {
   font-size: 4rem;
 }
