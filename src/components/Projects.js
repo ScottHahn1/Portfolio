@@ -10,17 +10,17 @@ import Project from "./Project";
 const Projects = () => {
 
   return (
-    <section className='projects'>
-      <h2>Projects</h2>
+    <section className='projects inter'>
+      <h2 className='montserrat'>Projects</h2>
 
       <Project
         title="Aggro Gaming"
         technologiesUsed={ ["HTML", "CSS", "TypeScript", "React", "Node.js", "Express", "MySQL"] }
-        overview="An online (fake) store that specializes in gaming products. 
+        overview="An online store that specializes in gaming products. 
           Users can register and login to add or delete items from their cart.
           Data retrieved is from a self-made MYSQL api.
           MySQL is used for storing users' names/passwords and products which they choose to add to their cart.
-          Passwords are hashed with Bcrypt."
+          Passwords are hashed with Bcrypt. (Products are not real and there is no payment invloved.)"
         liveLink="https://online-store-frontend-mocha.vercel.app"
         githubLink="https://github.com/ScottHahn1/Online-Store"
         imgSrc={OnlineStoreImg}

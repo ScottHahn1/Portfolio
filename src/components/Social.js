@@ -4,22 +4,8 @@ import '../styles/Social.css';
 import EmailIcon from "./Email-Icon";
 
 const Social = () => {
-
     return (
-        <div className='social-links'>
-        {
-            // <a href='https://linkedin.com/in/scott-hahn' target='_blank' rel="noreferrer">
-            //         <LinkedInIcon />
-            // </a>
-            
-            // <a href='https://github.com/ScottHahn1' target='_blank' rel="noreferrer">
-            //         <GithubIcon />
-            // </a>
-
-            // <a href='mailto:scotthahn2210@gmail.com'>
-            //         <EmailIcon />
-            // </a>
-        }
+        <div className='social-links inter'>
             <div>
                 <a href='https://linkedin.com/in/scott-hahn' target='_blank' rel="noreferrer">
                     <div className="social-link">

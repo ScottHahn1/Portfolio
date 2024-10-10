@@ -20,8 +20,8 @@ const Contact = () => {
     return (
         <div className='contact-container'>
         <div className='contact'>
-            <h2>Contact</h2>
-            <form className='form' ref={form} onSubmit={sendEmail}>
+            <h2 className='montserrat'>Contact</h2>
+            <form className='form inter' ref={form} onSubmit={sendEmail}>
                 <label>Your Name:</label> 
                 <input type="text" name="user_name" required /> 
                 <label>Your E-mail:</label>

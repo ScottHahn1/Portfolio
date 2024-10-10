@@ -4,8 +4,8 @@ import "../styles/About.css";
 const About = () => {
   return (
     <div className='about-container' id='about'>
-      <h2>About</h2> 
-      <section className='skills-about'>
+      <h2 className='montserrat'>About</h2> 
+      <section className='skills-about inter'>
         <div className="about">
           <h3>Summary</h3>
           <p>

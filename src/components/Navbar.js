@@ -14,30 +14,30 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className='navbar'>
+      <nav className='navbar montserrat'>
         <div className='cv'>
           <a href={CV} download>
-            <p>Download My CV</p>
+            <p><strong>Download My CV</strong></p>
             <span>
               <FontAwesomeIcon icon={faCircleDown} />
             </span>
           </a>
         </div>
 
-        <div className='nav-links'>
+        <ul className='nav-links inter'>
           <Link to='home' spy={true} smooth={true} offset={50} duration={500}>
-            <h4>Home</h4>
+            <li>Home</li>
           </Link>
           <Link to='projects' spy={true} smooth={true} offset={50} duration={500}>
-            <h4>Projects</h4>
+            <li>Projects</li>
           </Link>
           <Link to='about' spy={true} smooth={true} offset={50} duration={500}>
-            <h4>About</h4>
+            <li>About</li>
           </Link>
           <Link to='contact' spy={true} smooth={true} offset={50} duration={500}>
-            <h4>Contact</h4>
+            <li>Contact</li>
           </Link>
-        </div>
+        </ul>
 
         <div className='hamburger-menu' onClick={openNav}>
           <div className='hamburger-item'></div>
