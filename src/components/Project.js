@@ -11,7 +11,9 @@ const Project = ({ title, technologiesUsed, overview, liveLink, githubLink, imgS
 
         <div className="project-technologies">
           {technologiesUsed.map((tech, idx) => (
-                <p key={idx}>{tech}</p>
+                <p key={idx}>
+                  <strong>{tech}</strong>
+                </p>
           ))}
         </div>
 
