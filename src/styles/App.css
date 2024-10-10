@@ -2,6 +2,14 @@
   --black: rgb(19, 17, 17);
 }
 
+.montserrat {
+  font-family: 'Montserrat';
+}
+
+.inter {
+  font-family: 'Inter';
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +29,6 @@ h1, h2 {
 }
 
 h2 {
-  font-family: 'Roboto';
   font-size: 3rem;
   margin-bottom: 2rem;
   color: white;
@@ -33,6 +40,10 @@ h3 {
   background-color: rgb(58, 53, 53);
   color: white;
   color: lightgreen;
+}
+
+ul {
+  list-style: none;
 }
 
 @media screen and (max-width: 500px) {
