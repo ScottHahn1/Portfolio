@@ -65,8 +65,17 @@
 }
 
 @media screen and (max-width: 500px) {
+    .navbar {
+        font-size: 1.1rem;
+        padding-left: 5px;
+    }
+
     .nav-links {
         display: none;
+    }
+
+    .cv a {
+        padding-left: 0;
     }
 
     .hamburger-menu {
