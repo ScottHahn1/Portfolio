@@ -2,6 +2,8 @@ import '../styles/Navbar.css';
 import CV from '../assets/Scott Hahn Curriculum Vitae.pdf';
 import { useState } from 'react';
 import { Link } from 'react-scroll';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleDown } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   const [navIsClicked, setNavIsClicked] = useState(false);
@@ -14,7 +16,12 @@ const Navbar = () => {
     <>
       <nav className='navbar'>
         <div className='cv'>
-          <a href={CV} download>Download My CV</a>
+          <a href={CV} download>
+            <p>Download My CV</p>
+            <span>
+              <FontAwesomeIcon icon={faCircleDown} />
+            </span>
+          </a>
         </div>
 
         <div className='nav-links'>
