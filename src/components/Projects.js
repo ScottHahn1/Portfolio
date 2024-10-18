@@ -30,9 +30,10 @@ const Projects = () => {
       <Project
         title="Movie Database"
         technologiesUsed={ ["HTML", "CSS", "TypeScript", "React", "Node.js", "Express", "MySQL"] }
-        overview="This is a full stack website which contains information about
+        overview="This is a full stack website with CRUD functionality which contains information about
           thousands of movies, series and famous people involved in the film
-          industry. MySQL is used for storing users' names/passwords and data which they choose to save.
+          industry. Logged in users can rate movies/series and add movies/series to their favourites' list. 
+          MySQL is used for storing user's names/passwords and data which they choose to save.
           Passwords are hashed with Bcrypt."
         liveLink="https://movie-db-frontend-psi.vercel.app"
         githubLink="https://github.com/ScottHahn1/Movie-DB"
