@@ -16,7 +16,7 @@ const Projects = () => {
       <Project
         title="Aggro Gaming"
         technologiesUsed={ ["HTML", "CSS", "TypeScript", "React", "Node.js", "Express", "MySQL"] }
-        overview="An online store that specializes in gaming products. 
+        overview="An online store with CRUD functionality which sells gaming products. 
           Users can register and login to add or delete items from their cart.
           Data retrieved is from a self-made MYSQL api.
           MySQL is used for storing users' names/passwords and products which they choose to add to their cart.
