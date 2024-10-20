@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const useFade = (ref) => {
+const useInView = (ref) => {
     const [isVisible, setIsVisible] = useState(false);
 
     useEffect(() => {
@@ -23,4 +23,4 @@ const useFade = (ref) => {
     return isVisible;
 }
 
-export default useFade;
+export default useInView;

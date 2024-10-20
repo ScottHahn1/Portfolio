@@ -1,9 +1,9 @@
-import useFade from "../hooks/useFade";
+import useInView from "../hooks/useInView";
 import { useRef } from "react";
 
 const Project = ({ title, technologiesUsed, overview, liveLink, githubLink, imgSrc, imgAlt }) => {
     const ref = useRef();
-    const isVisible = useFade(ref);
+    const isVisible = useInView(ref);
 
     return (
         <div className={`project fade-in ${isVisible ? 'visible' : ''}`} ref={ref}>
