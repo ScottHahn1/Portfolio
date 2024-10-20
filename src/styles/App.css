@@ -22,24 +22,20 @@ html, body {
 
 h1 {
   font-size: 4rem;
-}
-
-h1, h2 {
-  color: lightgreen !important;
+  color: var(--black);
 }
 
 h2 {
   font-size: 3rem;
   margin-bottom: 2rem;
-  color: white;
+  color: whitesmoke;
   text-shadow: 2px 2px 8px rgb(12, 11, 11);
 }
 
 h3 {
   font-size: 2rem;
   background-color: rgb(58, 53, 53);
-  color: white;
-  color: lightgreen;
+  color: whitesmoke;
 }
 
 ul {

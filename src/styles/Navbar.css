@@ -1,5 +1,5 @@
 .navbar {
-    background-color: var(--black);
+    background-color: rgba(230, 228, 228, .5);
     font-size: 1.3rem;
     position: fixed;
     top: 0;
@@ -27,8 +27,7 @@
 }
 
 .navbar a {
-    color: white;
-    color: lightgreen;
+    color: var(--black);
     text-decoration: none;
 }
 

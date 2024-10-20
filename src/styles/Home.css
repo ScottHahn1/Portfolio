@@ -4,7 +4,7 @@
     justify-content: center;
     height: 100vh;
     width: 100%;
-    background: linear-gradient(rgb(74, 109, 76), black);
+    background: linear-gradient(whitesmoke, var(--black));
 }
 
 .intro {
@@ -13,11 +13,14 @@
     padding: 1rem;
 }
 
-.intro h1 {
-    text-shadow: 2px 2px 8px rgb(65, 63, 63);
-    text-shadow: 2px 2px 8px rgb(12, 11, 11);
-    letter-spacing: 3px;
-    color: white;
+.white-text {
+    color: rgb(236, 234, 234);
+    text-shadow: 2px 2px 8px rgb(20, 19, 19);
+}
+
+.intro h2 {
+    color: var(--black) !important;
+    text-shadow: 2px 2px 8px whitesmoke;
 }
 
 @media (max-width: 500px) {

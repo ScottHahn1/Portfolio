@@ -3,8 +3,6 @@
     top: 0;
     margin-top: 15rem;
     left: 0;
-    background-color: rgb(175, 216, 209);
-    background-color: var(--black);
     display: flex;
     flex-direction: column;
     gap: 4rem;
@@ -15,8 +13,7 @@
     left: -5rem;
     transition: .5s;
     display: flex;
-    background-color: var(--black);
-    color: lightgreen;
+    color: whitesmoke;
     width: 9rem;
     display: flex;
     align-items: center;

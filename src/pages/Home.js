@@ -10,7 +10,7 @@ const Home = () => {
       <div className='main-content' id='home'
       >
         <div className='intro montserrat'>
-          <h1>Scott Hahn</h1>
+          <h1 className='white-text'>Scott Hahn</h1>
           <h2>Full-Stack Web Developer</h2>
         </div>
         <Social />
