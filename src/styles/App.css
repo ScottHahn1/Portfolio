@@ -42,6 +42,17 @@ ul {
   list-style: none;
 }
 
+button, .submit {
+  transition: background-color .8s, color .8s;
+  border-radius: 1rem;
+  padding: .3rem .8rem;
+}
+
+button:hover, .submit:hover {
+  background-color: var(--black);
+  color: whitesmoke;
+}
+
 @media screen and (max-width: 500px) {
   h1 {
     font-size: 3rem;
