@@ -2,7 +2,6 @@ import "../styles/Projects.css";
 import PremImg from "../assets/Prem-League-Screenshot.png";
 import MovieImg from "../assets/Movie-Website-Screenshot.png";
 import WeatherImg from "../assets/Weather-Guide-Screenshot.png";
-// import SpotifyVideo from "../assets/Spotify-Clone-Video-Demo.mp4";
 import MarvelImg from "../assets/Marvel-W-Screenshot.png";
 import OnlineStoreImg from "../assets/Online-Store-Screenshot.png";
 import Project from "./Project";
