@@ -2,7 +2,7 @@ import "../styles/Projects.css";
 import PremImg from "../assets/Prem-League-Screenshot.png";
 import MovieImg from "../assets/Movie-Website-Screenshot.png";
 import WeatherImg from "../assets/Weather-Guide-Screenshot.png";
-import MarvelImg from "../assets/Marvel-W-Screenshot.png";
+// import MarvelImg from "../assets/Marvel-W-Screenshot.png";
 import OnlineStoreImg from "../assets/Online-Store-Screenshot.png";
 import Project from "./Project";
 
@@ -64,7 +64,7 @@ const Projects = () => {
         imgAlt="Weather Guide project"
       />
 
-      <Project
+      {/* <Project
         title="Marvel World"
         technologiesUsed={ ["HTML", "CSS", "TypeScript", "React", "Node.js", "Express"] }
         overview="A website that provides information about Marvel news, comics, characters, movies, and TV series. 
@@ -73,7 +73,7 @@ const Projects = () => {
         githubLink="https://github.com/ScottHahn1/Marvel"
         imgSrc={MarvelImg}
         imgAlt="Marvel World project"
-      />
+      /> */}
     </section>
   );
 };
