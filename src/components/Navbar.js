@@ -25,16 +25,16 @@ const Navbar = () => {
         </div>
 
         <ul className='nav-links inter'>
-          <Link to='home' spy={true} smooth={true} offset={50} duration={500}>
+          <Link to='home' spy={true} smooth={true} offset={-50} duration={500}>
             <li>Home</li>
           </Link>
-          <Link to='projects' spy={true} smooth={true} offset={50} duration={500}>
+          <Link to='projects' spy={true} smooth={true} offset={-50} duration={500}>
             <li>Projects</li>
           </Link>
-          <Link to='about' spy={true} smooth={true} offset={50} duration={500}>
+          <Link to='about' spy={true} smooth={true} offset={-50} duration={500}>
             <li>About</li>
           </Link>
-          <Link to='contact' spy={true} smooth={true} offset={50} duration={500}>
+          <Link to='contact' spy={true} smooth={true} offset={-50} duration={500}>
             <li>Contact</li>
           </Link>
         </ul>
