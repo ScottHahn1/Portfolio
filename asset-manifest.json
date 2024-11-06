@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.5300edb1.css",
-    "main.js": "/Portfolio/static/js/main.13497c9d.js",
+    "main.js": "/Portfolio/static/js/main.c658dfa0.js",
     "static/media/Prem-League-Screenshot.png": "/Portfolio/static/media/Prem-League-Screenshot.3b0b79bba5a9937efd57.png",
     "static/media/Movie-Website-Screenshot.png": "/Portfolio/static/media/Movie-Website-Screenshot.a812394465ca44d8bd2c.png",
     "static/media/Online-Store-Screenshot.png": "/Portfolio/static/media/Online-Store-Screenshot.5eedbf6964aa1609e199.png",
@@ -9,10 +9,10 @@
     "static/media/Weather-Guide-Screenshot.png": "/Portfolio/static/media/Weather-Guide-Screenshot.0ec74ed14e1da03d52d3.png",
     "index.html": "/Portfolio/index.html",
     "main.5300edb1.css.map": "/Portfolio/static/css/main.5300edb1.css.map",
-    "main.13497c9d.js.map": "/Portfolio/static/js/main.13497c9d.js.map"
+    "main.c658dfa0.js.map": "/Portfolio/static/js/main.c658dfa0.js.map"
   },
   "entrypoints": [
     "static/css/main.5300edb1.css",
-    "static/js/main.13497c9d.js"
+    "static/js/main.c658dfa0.js"
   ]
 }
