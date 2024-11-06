@@ -30,6 +30,7 @@
     .social-links {
         position: absolute;
         gap: 3rem;
+        margin-top: 12rem;
     }
 
     .social-link {
@@ -44,6 +45,6 @@
     }
 
     .social-icon {
-        width: 2.5rem !important;
+        width: 2rem !important;
     }
 }
