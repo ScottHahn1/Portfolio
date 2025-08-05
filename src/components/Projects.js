@@ -40,17 +40,17 @@ const Projects = () => {
         imgAlt="Movie Database project"
       />
 
-      <Project
-        title="Premier League"
-        technologiesUsed={ ["HTML", "CSS", "React", "Node.js", "Express"] }
-        overview="This is a website created with React which contains information about
-          the English Premier League such as latest news, fixtures, results,
-          league table information etc."
-        liveLink="https://scotthahn1.github.io/Premier-League"
-        githubLink="https://github.com/ScottHahn1/Premier-League"
-        imgSrc={PremImg}
-        imgAlt="Premier League project"
-      />
+      // <Project
+      //   title="Premier League"
+      //   technologiesUsed={ ["HTML", "CSS", "React", "Node.js", "Express"] }
+      //   overview="This is a website created with React which contains information about
+      //     the English Premier League such as latest news, fixtures, results,
+      //     league table information etc."
+      //   liveLink="https://scotthahn1.github.io/Premier-League"
+      //   githubLink="https://github.com/ScottHahn1/Premier-League"
+      //   imgSrc={PremImg}
+      //   imgAlt="Premier League project"
+      // />
 
       <Project
         title="Weather Guide"
