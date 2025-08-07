@@ -1,16 +1,16 @@
 import "../styles/Projects.css";
-import PremImg from "../assets/Prem-League-Screenshot.png";
+// import PremImg from "../assets/Prem-League-Screenshot.png";
 import MovieImg from "../assets/Movie-Website-Screenshot.png";
 import WeatherImg from "../assets/Weather-Guide-Screenshot.png";
 // import MarvelImg from "../assets/Marvel-W-Screenshot.png";
 import OnlineStoreImg from "../assets/Online-Store-Screenshot.png";
+import YouTubeCloneImg from "../assets/YouTube-Clone-Screenshot.png";
 import Project from "./Project";
 
 const Projects = () => {
-
   return (
-    <section className='projects inter'>
-      <h2 className='montserrat'>Projects</h2>
+    <section className="projects inter">
+      <h2 className="montserrat">Projects</h2>
 
       <Project
         title="Aggro Gaming"
@@ -28,7 +28,7 @@ const Projects = () => {
 
       <Project
         title="Movie Database"
-        technologiesUsed={ ["HTML", "CSS", "TypeScript", "React", "Node.js", "Express", "MySQL"] }
+        technologiesUsed={ ["HTML5", "CSS3", "TypeScript", "React", "Node.js", "Express", "MySQL"] }
         overview="This is a full stack website with CRUD functionality which contains information about
           thousands of movies, series and famous people involved in the film
           industry. Logged in users can rate movies/series and add movies/series to their favourites' list. 
@@ -40,17 +40,17 @@ const Projects = () => {
         imgAlt="Movie Database project"
       />
 
-      // <Project
-      //   title="Premier League"
-      //   technologiesUsed={ ["HTML", "CSS", "React", "Node.js", "Express"] }
-      //   overview="This is a website created with React which contains information about
-      //     the English Premier League such as latest news, fixtures, results,
-      //     league table information etc."
-      //   liveLink="https://scotthahn1.github.io/Premier-League"
-      //   githubLink="https://github.com/ScottHahn1/Premier-League"
-      //   imgSrc={PremImg}
-      //   imgAlt="Premier League project"
-      // />
+      <Project
+        title="YouTube Clone"
+        technologiesUsed={ ["HTML5", "Tailwind CSS", "TypeScript", "Next.js", "YouTube Data API"] }
+        overview="A fully functional YouTube clone that allows users to browse and watch videos, 
+          explore playlists and channels, read comments, and search for content. This project replicates 
+          the core YouTube experience minus user interactions like logging in, commenting, and uploading."
+        liveLink="https://youtube-clone-delta-khaki.vercel.app/"
+        githubLink="https://github.com/ScottHahn1/YouTube-Clone"
+        imgSrc={YouTubeCloneImg}
+        imgAlt="YouTube Clone project"
+      />
 
       <Project
         title="Weather Guide"
@@ -63,6 +63,18 @@ const Projects = () => {
         imgSrc={WeatherImg}
         imgAlt="Weather Guide project"
       />
+
+      {/* <Project
+        title="Premier League"
+        technologiesUsed={ ["HTML", "CSS", "React", "Node.js", "Express"] }
+        overview="This is a website created with React which contains information about
+        the English Premier League such as latest news, fixtures, results,
+        league table information etc."
+        liveLink="https://scotthahn1.github.io/Premier-League"
+        githubLink="https://github.com/ScottHahn1/Premier-League"
+        imgSrc={PremImg}
+        imgAlt="Premier League project"
+      /> */}
 
       {/* <Project
         title="Marvel World"
