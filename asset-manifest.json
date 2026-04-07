@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ad0ad6ef.css",
-    "main.js": "/Portfolio/static/js/main.02f32ff2.js",
+    "main.js": "/Portfolio/static/js/main.937350fc.js",
     "static/media/YouTube-Clone-Screenshot.png": "/Portfolio/static/media/YouTube-Clone-Screenshot.42a1564b8d578d9a0efa.png",
     "static/media/Movie-Website-Screenshot.png": "/Portfolio/static/media/Movie-Website-Screenshot.5e1f3f51035b7e0d840a.png",
+    "static/media/scotts-removals.png": "/Portfolio/static/media/scotts-removals.4743c100005805dc0249.png",
     "static/media/Online-Store-Screenshot.png": "/Portfolio/static/media/Online-Store-Screenshot.5eedbf6964aa1609e199.png",
     "static/media/Scott Hahn - Curriculum Vitae.pdf": "/Portfolio/static/media/Scott Hahn - Curriculum Vitae.2fc5829ea084b0dd3eed.pdf",
     "static/media/Weather-Guide-Screenshot.png": "/Portfolio/static/media/Weather-Guide-Screenshot.922fa2ecda1d181e6310.png",
     "index.html": "/Portfolio/index.html",
     "main.ad0ad6ef.css.map": "/Portfolio/static/css/main.ad0ad6ef.css.map",
-    "main.02f32ff2.js.map": "/Portfolio/static/js/main.02f32ff2.js.map"
+    "main.937350fc.js.map": "/Portfolio/static/js/main.937350fc.js.map"
   },
   "entrypoints": [
     "static/css/main.ad0ad6ef.css",
-    "static/js/main.02f32ff2.js"
+    "static/js/main.937350fc.js"
   ]
 }
