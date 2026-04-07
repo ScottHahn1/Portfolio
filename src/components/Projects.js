@@ -1,10 +1,9 @@
 import "../styles/Projects.css";
-// import PremImg from "../assets/Prem-League-Screenshot.png";
 import MovieImg from "../assets/Movie-Website-Screenshot.png";
 import WeatherImg from "../assets/Weather-Guide-Screenshot.png";
-// import MarvelImg from "../assets/Marvel-W-Screenshot.png";
 import OnlineStoreImg from "../assets/Online-Store-Screenshot.png";
 import YouTubeCloneImg from "../assets/YouTube-Clone-Screenshot.png";
+import ScottsRemovalsImg from "../assets/scotts-removals.png"
 import Project from "./Project";
 
 const Projects = () => {
@@ -41,6 +40,17 @@ const Projects = () => {
       />
 
       <Project
+        title="Scott's Removals"
+        technologiesUsed={ ["HTML", "CSS", "JavaScript"] }
+        overview="Created a professional website for a small business highlighting services, past work, 
+          and contact options, designed to strengthen online presence and make it simple for clients to get in touch."
+        liveLink="https://scottsremovals.co.za"
+        githubLink="https://github.com/ScottHahn1/Portfolio"
+        imgSrc={ScottsRemovalsImg}
+        imgAlt="Scott's Removals project"
+      />
+
+      <Project
         title="YouTube Clone"
         technologiesUsed={ ["HTML5", "Tailwind CSS", "TypeScript", "Next.js", "YouTube Data API"] }
         overview="A fully functional YouTube clone that allows users to browse and watch videos, 
@@ -51,41 +61,6 @@ const Projects = () => {
         imgSrc={YouTubeCloneImg}
         imgAlt="YouTube Clone project"
       />
-
-      <Project
-        title="Weather Guide"
-        technologiesUsed={ ["HTML", "CSS", "TypeScript", "React", "Node.js", "Express"] }
-        overview="An app which gives weather information for a specific location of your choosing. 
-          Includes current, today's, daily, weekly, and hourly weather data. 
-          Node.js/Express are used for API calls and routing."
-        liveLink="https://weather-guide-v2.netlify.app"
-        githubLink="https://github.com/ScottHahn1/Weather-Guide"
-        imgSrc={WeatherImg}
-        imgAlt="Weather Guide project"
-      />
-
-      {/* <Project
-        title="Premier League"
-        technologiesUsed={ ["HTML", "CSS", "React", "Node.js", "Express"] }
-        overview="This is a website created with React which contains information about
-        the English Premier League such as latest news, fixtures, results,
-        league table information etc."
-        liveLink="https://scotthahn1.github.io/Premier-League"
-        githubLink="https://github.com/ScottHahn1/Premier-League"
-        imgSrc={PremImg}
-        imgAlt="Premier League project"
-      /> */}
-
-      {/* <Project
-        title="Marvel World"
-        technologiesUsed={ ["HTML", "CSS", "TypeScript", "React", "Node.js", "Express"] }
-        overview="A website that provides information about Marvel news, comics, characters, movies, and TV series. 
-          Node.js/Express are used for API calls and routing."
-        liveLink="https://marvel-world-heroes.netlify.app"
-        githubLink="https://github.com/ScottHahn1/Marvel"
-        imgSrc={MarvelImg}
-        imgAlt="Marvel World project"
-      /> */}
     </section>
   );
 };
